@@ -1,9 +1,9 @@
 # json-schema-to-sql
 
-![Tests](https://github.com/VasilVelikov00/json-schema-to-sql/actions/workflows/tests.yaml/badge.svg)
-![Coverage](https://codecov.io/github/VasilVelikov00/json-schema-to-sql/config/badge.svg)
-![npm](https://img.shields.io/npm/v/json-schema-to-sql)
-![license](https://img.shields.io/npm/l/json-schema-to-sql)
+[![Tests](https://github.com/VasilVelikov00/json-schema-to-sql/actions/workflows/tests.yaml/badge.svg)](https://github.com/VasilVelikov00/json-schema-to-sql/actions/workflows/tests.yaml)
+[![Coverage](https://codecov.io/github/VasilVelikov00/json-schema-to-sql/config/badge.svg)](https://codecov.io/github/VasilVelikov00/json-schema-to-sql)
+[![npm](https://img.shields.io/npm/v/json-schema-to-sql)](https://www.npmjs.com/package/json-schema-to-sql)
+[![license](https://img.shields.io/npm/l/json-schema-to-sql)](https://github.com/VasilVelikov00/json-schema-to-sql/blob/main/LICENSE)
 
 Convert a [JSON schema](https://json-schema.org/overview/what-is-jsonschema) into SQL DDL (create table) statements.
 
