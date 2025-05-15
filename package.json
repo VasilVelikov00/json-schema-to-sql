@@ -1,15 +1,27 @@
 {
   "name": "json-schema-to-sql",
-  "version": "1.0.0",
-  "main": "index.ts",
+  "version": "1.0.1",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
   "type": "module",
   "scripts": {
     "start": "tsx src/index.ts",
-    "test": "vitest"
+    "test": "vitest",
+    "build": "tsc"
   },
-  "author": "",
+  "author": "Vasil Velikov",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VasilVelikov00/json-schema-to-sql"
+  },
+  "bugs": {
+    "url": "https://github.com/VasilVelikov00/json-schema-to-sql/issues"
+  },
+  "homepage": "https://github.com/VasilVelikov00/json-schema-to-sql#readme",
   "license": "MIT",
-  "description": "",
+  "keywords": ["SQL", "Zod", "Ajv", "Knex", "JSON Schema", "TypeScript", "SQL DDL", "generator", "parser"],
+  "description": "Convert a JSON schema into SQL DDL (create table) statements.",
   "dependencies": {
     "ajv": "^8.17.1",
     "json-schema": "^0.4.0",

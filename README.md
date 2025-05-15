@@ -3,10 +3,9 @@
 [![Tests](https://github.com/VasilVelikov00/json-schema-to-sql/actions/workflows/tests.yaml/badge.svg)](https://github.com/VasilVelikov00/json-schema-to-sql/actions/workflows/tests.yaml)
 [![Coverage](https://codecov.io/github/VasilVelikov00/json-schema-to-sql/config/badge.svg)](https://codecov.io/github/VasilVelikov00/json-schema-to-sql/config/badge.svg)
 [![npm](https://img.shields.io/npm/v/json-schema-to-sql.svg)](https://img.shields.io/npm/v/json-schema-to-sql.svg)
-[![node](https://img.shields.io/node/v/json-schema-to-sql.svg)](https://img.shields.io/node/v/json-schema-to-sql.svg)
 [![license](https://img.shields.io/npm/l/json-schema-to-sql.svg)](https://img.shields.io/npm/l/json-schema-to-sql.svg)
 
-Convert a [JSON schema](https://json-schema.org/overview/what-is-jsonschema) into SQL statements for provisioning a database.
+Convert a [JSON schema](https://json-schema.org/overview/what-is-jsonschema) into SQL DDL (create table) statements.
 
 ## Table of Contents
 
